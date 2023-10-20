@@ -3,7 +3,7 @@ pipeline{
  agent any
    tools{
     maven 'Maven_Home'
-    jave 'Java_Home'
+    java 'Java_Home'
         } 
   stages{
     stage('Build'){
