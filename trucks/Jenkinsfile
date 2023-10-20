@@ -3,11 +3,13 @@ pipeline{
  agent any
    tools{
     maven 'Maven_Home'
+    jave 'Java_Home'
         } 
   stages{
     stage('Build'){
      steps{
       sh 'mvn clean package'
+      sh 'mvn -f trucks/pom.xml clean install package' 
      }
     post{
       success{
