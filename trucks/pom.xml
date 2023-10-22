@@ -7,6 +7,12 @@
   <version>1.0-SNAPSHOT</version>
   <name>trucks Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  
+  <properties>
+       <sonar.host.url>http://44.201.111.118:9000/</sonar.host.url>
+  </properties>
+  
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
